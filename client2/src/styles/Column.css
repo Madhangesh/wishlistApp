@@ -1,0 +1,91 @@
+/* 
+
+.task-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.column-new{
+  
+  background-color: #f1f1f1;
+  
+  padding: 50px;
+  border-radius: 8px; 
+  margin: 0px;
+
+
+  
+}
+.column-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column-title{
+  background-color: white;
+  width: 100%;
+}
+ */
+
+
+ /* App.css */
+
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.task-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%; /* Ensures the container takes the full width */
+}
+
+.column-new {
+  background-color: #f1f1f1;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin: 0;
+  width: 100%/* Ensures the column takes the full width */
+}
+
+.column-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column-title {
+  background-color: white;
+  width: 1685px;
+}
+
+/* Add a bit of styling to ensure the cards fit nicely */
+.task-card {
+  width: calc(33.333% - 40px); /* Three cards per row with 20px gap on each side */
+  margin: 10px;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+}
+
+.task-card:hover {
+  transform: scale(1.05);
+}
+
+.bookmarked {
+  background-color: #ffeb3b;
+}
+
+.completed {
+  background-color: #d4edda;
+}

@@ -1,0 +1,12 @@
+/* Board Styles */
+.board {
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  width: fit-content;
+}
+
+.container-fluid{
+  padding: 0px;
+  margin: 0px;
+}

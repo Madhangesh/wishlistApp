@@ -1,0 +1,35 @@
+.bookmarked-container {
+  padding: 20px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #ff9800;
+  background-color: white;
+  padding: 10px;
+}
+
+.task-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.task-card.bookmarked {
+  background-color: #ffeb3b;
+}
+
+.task-card:hover {
+  transform: scale(1.05);
+}
